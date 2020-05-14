@@ -1,0 +1,29 @@
+2020-05-14 14:42:10,734 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Application on LAP12580s-MacBook-Pro.local with PID 4471 (/Users/toan/personal/web-admin-template/server/java/springboot-template/target/classes started by toan in /Users/toan/personal/web-admin-template/server/java/springboot-template)
+2020-05-14 14:42:10,754 INFO o.s.b.SpringApplication [restartedMain] The following profiles are active: local
+2020-05-14 14:42:10,798 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/toan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/Users/toan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/Users/toan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/Users/toan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/Users/toan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2020-05-14 14:42:10,798 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-14 14:42:10,799 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-14 14:42:12,355 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1aba5967' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-14 14:42:12,368 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-14 14:42:12,772 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8989 (http)
+2020-05-14 14:42:12,785 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8989"]
+2020-05-14 14:42:12,787 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-05-14 14:42:12,788 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-14 14:42:12,872 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-05-14 14:42:12,872 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2073 ms
+2020-05-14 14:42:13,732 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-05-14 14:42:13,778 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e559b0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@550edc6d, org.springframework.security.web.header.HeaderWriterFilter@75a4ca23, org.springframework.web.filter.CorsFilter@1941c2e4, org.springframework.security.web.authentication.logout.LogoutFilter@1991ee6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5058d780, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53b32e83, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fda7a5f, org.springframework.security.web.session.SessionManagementFilter@46d29175, org.springframework.security.web.access.ExceptionTranslationFilter@6dc91165, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b0c29ca]
+2020-05-14 14:42:13,847 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-14 14:42:14,122 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-05-14 14:42:14,163 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8989"]
+2020-05-14 14:42:14,190 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8989 (http) with context path ''
+2020-05-14 14:42:14,194 INFO o.s.b.StartupInfoLogger [restartedMain] Started Application in 3.968 seconds (JVM running for 5.876)
+2020-05-14 14:42:14,199 INFO o.l.s.g.GRpcServerRunner [restartedMain] Starting gRPC Server ...
+2020-05-14 14:42:14,227 INFO o.l.s.g.GRpcServerRunner [restartedMain] 'vn.toanhda.springboottemplate.controller.grpc.PingRpc' service has been registered.
+2020-05-14 14:42:14,348 INFO o.l.s.g.GRpcServerRunner [restartedMain] gRPC Server started, listening on port 8990.
+2020-05-14 14:42:14,686 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-14 14:42:14,686 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2020-05-14 14:42:14,697 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 11 ms
+2020-05-14 14:42:53,705 INFO o.l.s.g.GRpcServerRunner [SpringContextShutdownHook] Shutting down gRPC server ...
+2020-05-14 14:42:53,711 INFO o.l.s.g.GRpcServerRunner [SpringContextShutdownHook] gRPC server stopped.
+2020-05-14 14:42:53,712 INFO o.s.s.c.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

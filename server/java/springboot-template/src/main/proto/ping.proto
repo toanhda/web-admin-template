@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = " vn.toanhda.springboottemplate";
+option java_outer_classname = "SpringbootTemplate";
+
+package vn.toanhda.springboottemplate;
+
+message PingRequest {
+    int64 timestamp = 1;
+}
+
+message PingResponse {
+    int64 timestamp = 1;
+    string system_name = 2;
+}
+
+service PingService {
+    rpc ping (PingRequest) returns (PingResponse);
+}
