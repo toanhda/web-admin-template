@@ -12,10 +12,11 @@ ReactJs
 
 ### Back-end
 
- We have 2 option:
+ We have multiple option:
  - Java
- - TypeJS
- 
+ - JS
+    - Swagger + expressJS
+    - TypeJS
  ## Installation
  
  ### Front-end
@@ -49,7 +50,15 @@ cd server/java
 mvn clean install
 ```
 
-#### TypeJS
+#### JS
 
-TDB
+##### Swagger ExpressJS
 
+```shell
+cd server/js/swagger-expressjs
+npm install
+npm start
+```
+
+##### TypeJS
+TBD
