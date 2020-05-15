@@ -7,8 +7,8 @@
     </Console>
 
     <RollingFile name="RollingFile"
-                 fileName="./logs/inspector.log"
-                 filePattern="./logs/$${date:yyyy-MM}/inspector-%d{yyyy-MMMM-dd}-%i.log">
+                 fileName="./logs/springboot.log"
+                 filePattern="./logs/$${date:yyyy-MM}/springboot-%d{yyyy-MMMM-dd}-%i.log">
       <PatternLayout>
         <pattern>%d %p %C{1.} [%t] %m%n</pattern>
       </PatternLayout>

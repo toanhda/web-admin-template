@@ -280,7 +280,8 @@
               <sources>
                 <source>${project.build.directory}/generated-sources/java/</source>
                 <source>${project.build.directory}/generated-sources/annotations/</source>
-                <source>${project.build.directory}/generated-sources/protobuf/*</source>
+                <source>${project.build.directory}/generated-sources/protobuf/java</source>
+                <source>${project.build.directory}/generated-sources/protobuf/grpc-sjava</source>
               </sources>
             </configuration>
           </execution>

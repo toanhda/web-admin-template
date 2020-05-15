@@ -1,10 +1,10 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = " vn.toanhda.springboottemplate";
+option java_package = "springboottemplate";
 option java_outer_classname = "SpringbootTemplate";
 
-package vn.toanhda.springboottemplate;
+package springboottemplate;
 
 message PingRequest {
     int64 timestamp = 1;

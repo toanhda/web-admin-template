@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import vn.toanhda.springboottemplate.PingRequest;
+import springboottemplate.PingRequest;
 import vn.toanhda.springboottemplate.service.impl.PingServiceImpl;
 
 /** Created by ToanHDA at Apr 22, 2020 */

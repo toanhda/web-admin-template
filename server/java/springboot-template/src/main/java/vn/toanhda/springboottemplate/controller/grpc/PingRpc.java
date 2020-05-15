@@ -4,9 +4,9 @@ import io.grpc.stub.StreamObserver;
 import lombok.extern.slf4j.Slf4j;
 import org.lognet.springboot.grpc.GRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
-import vn.toanhda.springboottemplate.PingRequest;
-import vn.toanhda.springboottemplate.PingResponse;
-import vn.toanhda.springboottemplate.PingServiceGrpc;
+import springboottemplate.PingRequest;
+import springboottemplate.PingResponse;
+import springboottemplate.PingServiceGrpc;
 import vn.toanhda.springboottemplate.service.impl.PingServiceImpl;
 
 /** Created by ToanHDA at Apr 22, 2020 */

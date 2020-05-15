@@ -3,8 +3,8 @@ package vn.toanhda.springboottemplate.service.impl;
 import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import vn.toanhda.springboottemplate.PingRequest;
-import vn.toanhda.springboottemplate.PingResponse;
+import springboottemplate.PingRequest;
+import springboottemplate.PingResponse;
 import vn.toanhda.springboottemplate.service.PingService;
 
 /** Created by ToanHDA at Apr 22, 2020 */
