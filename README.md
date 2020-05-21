@@ -14,6 +14,7 @@ ReactJs
 
  We have multiple option:
  - Java
+    - String boot
  - JS
     - Swagger + expressJS
     - TypeJS
@@ -61,4 +62,12 @@ npm start
 ```
 
 ##### TypeJS
-TBD
+
+```shell
+cd server/js/ts-graphql
+npm install
+NODE_ENV=production npm run build 
+npm run start:env
+```
+
+
