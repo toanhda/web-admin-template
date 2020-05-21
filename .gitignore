@@ -1,2 +1,4 @@
 
 .DS_Store
+./server/js/ts+graphql/node_modules
+.env
