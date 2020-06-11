@@ -1,0 +1,6 @@
+{
+  "uriMongo": "mongodb://dojouser:fvGT34vBj80@10.50.1.6:27017/zalopay-dojo",
+  "urlVeriryOTP": "https://security.vng.com.vn/token-gateway/api/verify_otp/"
+}
+
+
