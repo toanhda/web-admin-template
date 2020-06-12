@@ -4,7 +4,7 @@
 
 This is template can help you build project admin so fast
 
-## Architecture
+## Technical stack
 
 ### Front-end
 
@@ -70,4 +70,9 @@ NODE_ENV=production npm run build
 npm run start:env
 ```
 
+## Example
+
+### UI 
+
+<img src="./images/template.gif">
 
