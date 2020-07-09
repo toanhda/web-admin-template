@@ -5,10 +5,7 @@ import {Link} from "react-router-dom";
 import CustomScrollbars from "util/CustomScrollbars";
 import languageData from "./languageData";
 import {switchLanguage, toggleCollapsedSideNav} from "../../appRedux/actions/Setting";
-import SearchBox from "components/SearchBox";
 import UserInfo from "components/UserInfo";
-import AppNotification from "components/AppNotification";
-import MailNotification from "components/MailNotification";
 import Auxiliary from "util/Auxiliary";
 
 
@@ -53,41 +50,8 @@ const Topbar = () => {
       <Link to="/" className="gx-d-block gx-d-lg-none gx-pointer">
         <img alt="" src={require("assets/images/w-logo.png")}/></Link>
 
-      <SearchBox styleName="gx-d-none gx-d-lg-block gx-lt-icon-search-bar-lg"
-                 placeholder="Search in app..."
-                 onChange={updateSearchChatUser}
-                 value={searchText}/>
       <ul className="gx-header-notifications gx-ml-auto">
-        <li className="gx-notify gx-notify-search gx-d-inline-block gx-d-lg-none">
-          <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight" content={
-            <SearchBox styleName="gx-popover-search-bar"
-                       placeholder="Search in app..."
-                       onChange={updateSearchChatUser}
-                       value={searchText}/>
-          } trigger="click">
-            <span className="gx-pointer gx-d-block"><i className="icon icon-search-new"/></span>
-          </Popover>
-        </li>
-        {width >= TAB_SIZE ? null :
-          <Auxiliary>
-            <li className="gx-notify">
-              <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight" content={<AppNotification/>}
-                       trigger="click">
-                <span className="gx-pointer gx-d-block"><i className="icon icon-notification"/></span>
-              </Popover>
-            </li>
 
-            <li className="gx-msg">
-              <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight"
-                       content={<MailNotification/>} trigger="click">
-                  <span className="gx-pointer gx-status-pos gx-d-block">
-                    <i className="icon icon-chat-new"/>
-                    <span className="gx-status gx-status-rtl gx-small gx-orange"/>
-                  </span>
-              </Popover>
-            </li>
-          </Auxiliary>
-        }
         <li className="gx-language">
           <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight" content={languageMenu()}
                    trigger="click">

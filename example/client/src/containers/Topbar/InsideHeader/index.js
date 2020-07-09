@@ -3,10 +3,7 @@ import {Button, Dropdown, Icon, Layout, Menu, message, Popover} from 'antd';
 import {connect, useDispatch, useSelector} from "react-redux";
 import CustomScrollbars from "util/CustomScrollbars";
 import languageData from "../languageData";
-import SearchBox from "components/SearchBox";
 import UserInfo from "components/UserInfo";
-import AppNotification from "components/AppNotification";
-import MailNotification from "components/MailNotification";
 import HorizontalNav from "../HorizontalNav";
 import {Link} from "react-router-dom";
 import {switchLanguage, toggleCollapsedSideNav} from "../../../appRedux/actions/Setting";
@@ -98,10 +95,7 @@ const InsideHeader = () => {
                       Category <Icon type="down"/>
                     </Button>
                   </Dropdown>
-                    <SearchBox styleName="gx-popover-search-bar"
-                               placeholder="Search in app..."
-                               onChange={updateSearchChatUser}
-                               value={searchText}/>
+ 
                   </div>
                 } trigger="click">
 
@@ -110,22 +104,7 @@ const InsideHeader = () => {
                 </Popover>
               </li>
 
-              <li className="gx-notify">
-                <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight" content={<AppNotification/>}
-                         trigger="click">
-                  <span className="gx-pointer gx-d-block"><i className="icon icon-notification"/></span>
-                </Popover>
-              </li>
-
-              <li className="gx-msg">
-                <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight"
-                         content={<MailNotification/>} trigger="click">
-                <span className="gx-pointer gx-status-pos gx-d-block">
-                <i className="icon icon-chat-new"/>
-                <span className="gx-status gx-status-rtl gx-small gx-orange"/>
-                </span>
-                </Popover>
-              </li>
+     
               <li className="gx-language">
                 <Popover overlayClassName="gx-popover-horizantal" placement="bottomRight"
                          content={languageMenu()} trigger="click">
